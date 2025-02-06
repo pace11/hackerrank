@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.023" tests="7" failures="7">
+  <testsuite name="Root Suite" timestamp="2025-02-03T15:14:55" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="express_authorization_middleware" timestamp="2025-02-03T15:14:55" tests="7" file="/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js" time="14.020" failures="7">
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role header is not present" time="2.001" classname="Should send a 403 if the x-role header is not present">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 200 for a non-protected route" time="2.000" classname="Should send a 200 for a non-protected route">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role value is invalid" time="2.001" classname="Should send a 403 if the x-role value is invalid">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role value does not have access to route" time="2.001" classname="Should send a 403 if the x-role value does not have access to route">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 201 if the x-role value has access to route" time="2.001" classname="Should send a 201 if the x-role value has access to route">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should validate header for protected routes" time="2.001" classname="Should validate header for protected routes">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should not require auth headers for unprotected routes" time="2.001" classname="Should not require auth headers for unprotected routes">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/pace/Documents/App/hackerrank/nodejs-middleware/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
